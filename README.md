@@ -16,7 +16,7 @@ Validate your code:
 
 Test your code:
 
-    $ npm run test
+    $ npm test
 
 ## Release to NPM
 
@@ -30,7 +30,7 @@ Pull requests and [bug reports](https://github.com/axelpale/node-lib-template/is
 
 Run test suite:
 
-    $ npm run test
+    $ npm test
 
 Run only linter:
 
