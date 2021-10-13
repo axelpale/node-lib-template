@@ -5,7 +5,7 @@
   "description": "A project template for JS libraries to be published to NPM",
   "main": "index.js",
   "scripts": {
-    "lint": "standard 'src/**/*.js' 'test/**/*.js'",
+    "lint": "standard 'lib/**/*.js' 'test/**/*.js'",
     "test": "node test/index.js",
     "release": "npm run lint && npm run test && npm publish"
   },
