@@ -5,7 +5,7 @@
   "description": "A project template for JS libraries to be published to NPM",
   "main": "index.js",
   "scripts": {
-    "lint": "standard 'lib/**/*.js' 'test/**/*.js'",
+    "lint": "standard 'lib/**/*.js' 'test/**/*.js' && echo 'OK'",
     "test": "node test/index.js",
     "release": "npm run lint && npm run test && npm publish"
   },
@@ -28,7 +28,7 @@
   },
   "homepage": "https://github.com/axelpale/node-lib-template",
   "devDependencies": {
-    "standard": "^16.0.4",
+    "standard": "^17.0.0",
     "tape": "^5.3.1"
   }
 }
